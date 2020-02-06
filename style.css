@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  margin: 3em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper button {
+  padding: .3em 1em;
+  font-size: 1em;
+  background: #61619e;
+  border: none;
+  border-radius: .6em;
+  color: white;
+  cursor: pointer;
+}
+
+.wrapper p {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
