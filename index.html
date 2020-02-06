@@ -7,10 +7,10 @@
   <title>generate-scramble</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="getScramble()">
   <div class="wrapper">
-    <button>Generate Scramble</button>
-    <p>Output: <span id="scramble-alg"></span></p>
+    <button onclick="getScramble()">Generate Scramble</button>
+    <p id="scramble-alg"></p>
   </div>
   
   

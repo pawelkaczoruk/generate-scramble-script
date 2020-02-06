@@ -15,7 +15,7 @@
     padding: .3em 1em;
     font-size: 1em;
     background: rgb(97, 97, 158);
-    border: none;
+    border: 2px solid rgb(148, 148, 187);
     border-radius: .6em;
     color: white;
     cursor: pointer;
@@ -23,5 +23,6 @@
 
   p {
     font-weight: bold;
+    color: rgb(122, 118, 118);
   }
 }
